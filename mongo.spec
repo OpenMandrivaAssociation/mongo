@@ -1,6 +1,6 @@
 %define name    mongo
 %define version 2004.08.17
-%define release %mkrel 2
+%define release %mkrel 4
 
 Name:           %{name}
 Version:        %{version}
