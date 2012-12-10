@@ -61,3 +61,34 @@ cp mongo.cmds.example $RPM_BUILD_ROOT%_defaultdocdir/%name-%version
 rm -rf $RPM_BUILD_ROOT
 
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 2004.08.17-6mdv2011.0
++ Revision: 620388
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 2004.08.17-5mdv2010.0
++ Revision: 430086
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 2004.08.17-4mdv2009.0
++ Revision: 252686
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 2004.08.17-2mdv2008.1
++ Revision: 136602
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Sun Feb 25 2007 Anne Nicolas <anne.nicolas@mandriva.com> 2004.08.17-2mdv2007.0
++ Revision: 125561
+- rebuild
+- Import mongo
+
+* Sun May 07 2006 Anne Nicolas <anne.nicolas@mandriva.com> 2004.08.17-1mdk
+- initial release
+
