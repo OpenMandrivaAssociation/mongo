@@ -6,7 +6,7 @@ Name:           %{name}
 Version:        %{version}
 Release:        %{release}
 Summary:	Filesystem load tester
-URL:		http://thebsh.namesys.com/benchmarks/dist
+URL:		https://thebsh.namesys.com/benchmarks/dist
 License:	GPL
 Group:		System/Kernel and hardware
 Source0:	%{name}-%{version}.tar.gz
