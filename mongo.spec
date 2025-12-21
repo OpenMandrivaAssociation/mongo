@@ -12,6 +12,7 @@ Group:		System/Kernel and hardware
 Source0:	%{name}-%{version}.tar.gz
 Buildroot:	 %{_tmppath}/%{name}-%{version}-root
 
+BuildRequires:	make
 %description
 Mongo is a program to test linux filesystems for performance and
 functionality.
